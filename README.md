@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://via.placeholder.com/400x100?text=SMI+IPOS" alt="SMI IPOS Logo">
+  <img src="http://www.smim.com.my/images/top_01_01.jpg" alt="SMI IPOS Logo">
   <h1 align="center">SMI IPOS (Intelligent Production Online System)</h1>
   <p align="center">
     A comprehensive production monitoring and online system built with Laravel
