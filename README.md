@@ -1,25 +1,104 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+<p align="center">
+  <img src="https://via.placeholder.com/400x100?text=SMI+IPOS" alt="SMI IPOS Logo">
+  <h1 align="center">SMI IPOS (Intelligent Production Online System)</h1>
+  <p align="center">
+    A comprehensive production monitoring and online system built with Laravel
+  </p>
+</p>
 
 <p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <a href="https://packagist.org/packages/laravel/framework">
+    <img src="https://img.shields.io/packagist/l/laravel/framework" alt="License">
+  </a>
+  <a href="https://packagist.org/packages/laravel/framework">
+    <img src="https://img.shields.io/packagist/v/laravel/framework" alt="Laravel Version">
+  </a>
 </p>
+
+## About SMI IPOS
+
+SMI IPOS (Intelligent Production Online System) is a comprehensive manufacturing execution system (MES) designed to monitor, analyze, and optimize production processes. Built on the Laravel framework, it provides real-time visibility into production lines, equipment performance, and overall plant efficiency.
+
+### Key Features
+
+- **Real-time Production Monitoring**: Track production lines and work centers in real-time
+- **OEE Calculation**: Automatic Overall Equipment Effectiveness calculation
+- **Downtime Tracking**: Monitor and analyze equipment downtime events
+- **Production Analytics**: Comprehensive reporting and analytics for production data
+- **OPC Integration**: Seamless integration with OPC servers for live data acquisition
+- **User Management**: Role-based access control for different user levels
+- **Shift Management**: Support for multiple shift patterns and scheduling
+- **Quality Control**: Track production quality metrics and reject reasons
+
+### Technology Stack
+
+- **Backend**: Laravel PHP Framework
+- **Frontend**: Vue.js, Bootstrap
+- **Database**: MySQL
+- **Real-time**: Laravel Echo, WebSockets
+- **OPC Integration**: OPC DA/AE/HDA
+- **Deployment**: Docker, Nginx
+
+## Getting Started
+
+### Prerequisites
+
+- PHP 7.4+ / 8.0+
+- Composer
+- Node.js & NPM
+- MySQL 5.7+ / MariaDB 10.3+
+- OPC Server (for production data acquisition)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone [repository-url]
+   cd smi_ipos
+   ```
+
+2. Install PHP dependencies:
+   ```bash
+   composer install
+   ```
+
+3. Install JavaScript dependencies:
+   ```bash
+   npm install
+   npm run dev
+   ```
+
+4. Configure environment:
+   ```bash
+   cp .env.example .env
+   php artisan key:generate
+   ```
+
+5. Configure your database settings in `.env`
+
+6. Run database migrations:
+   ```bash
+   php artisan migrate --seed
+   ```
+
+7. Start the development server:
+   ```bash
+   php artisan serve
+   ```
+
+8. Access the application at `http://localhost:8000`
+
+## Documentation
+
+For detailed documentation, please refer to the [Documentation Wiki](https://github.com/your-org/smi_ipos/wiki).
+
+## License
+
+This project is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 ## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+This project is built using the [Laravel framework](https://laravel.com/). Laravel is a web application framework with expressive, elegant syntax.
 
 ## Learning Laravel
 
