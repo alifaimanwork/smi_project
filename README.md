@@ -88,10 +88,6 @@ SMI IPOS (Intelligent Production Online System) is a comprehensive manufacturing
 
 8. Access the application at `http://localhost:8000`
 
-## Documentation
-
-For detailed documentation, please refer to the [Documentation Wiki](https://github.com/your-org/smi_ipos/wiki).
-
 ## License
 
 This project is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
